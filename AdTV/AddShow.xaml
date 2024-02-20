@@ -1,0 +1,28 @@
+﻿<Window x:Class="EmerAgency.AddShow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmerAgency"
+        mc:Ignorable="d"
+        Title="AddShow" Height="550" Width="800">
+    <Grid>
+        <Grid.Background>
+        <ImageBrush ImageSource="/Images/imageback2.png" Stretch="UniformToFill"/>
+
+    </Grid.Background>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+
+        <TextBlock Text="Название:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+        <TextBox x:Name="TitleTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+        <TextBlock Text="Рейтинг:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+        <TextBox x:Name="RatingTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+        <TextBlock Text="Стоимость минуты:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+        <TextBox x:Name="CostPerMinuteTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+        <Button Content="Добавить" Click="AddButton_Click" Width="250" Height="25" HorizontalContentAlignment="Center" Margin="40"/>
+    </StackPanel>
+    </Grid>
+</Window>

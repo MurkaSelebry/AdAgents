@@ -1,0 +1,33 @@
+﻿<Window x:Class="EmerAgency.AddAdvertisement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmerAgency"
+        mc:Ignorable="d"
+        Title="AddAdvertisement" Height="600" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/imageback2.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <TextBlock Text="Код передачи:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+            <TextBox x:Name="TransmissionCodeTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+            <TextBlock Text="Код заказчика:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+            <TextBox x:Name="ClientCodeTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+            <TextBlock Text="Дата:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+            <DatePicker x:Name="DateConclusionPicker" Width="250" Height="25" Margin="10"/>
+
+            <TextBlock Text="Длительность в минутах:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+            <TextBox x:Name="DurationMinutesTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+            <TextBlock Text="Код агента:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+            <TextBox x:Name="AgentCodeTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+            <Button Content="Добавить" Click="AddButton_Click" Width="250" Height="25" HorizontalContentAlignment="Center" Margin="40"/>
+        </StackPanel>
+    </Grid>
+</Window>
