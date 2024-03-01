@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\User\Desktop\AdAgency\AdTV\obj\Debug\net8.0-windows\
+C:\Users\murad\Documents\work\wpf\kurshachi\AdAgents\AdTV\obj\Debug\net8.0-windows\
 AdTV
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\User\Desktop\AdAgency\AdTV\App.xaml
+C:\Users\murad\Documents\work\wpf\kurshachi\AdAgents\AdTV\App.xaml
 6-1450578327
 
 14-67000490
-212482024163
+2121224800400
 AddAdvertisement.xaml;AddShow.xaml;Login.xaml;MainWindow.xaml;Registration.xaml;UserInfo.xaml;
 
 False
